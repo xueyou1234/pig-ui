@@ -1,0 +1,22 @@
+server:
+  port: 5002
+
+spring:
+  sleuth:
+    enabled: false
+  rabbitmq:
+    host: 106.14.69.75
+    port: 5682
+    username: pig
+    password: lengleng
+
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      hosts: 106.14.69.75:9201
+      cluster: elasticsearch
+      index: zipkin
+      max-requests: 64
+      index-shards: 5
+      index-replicas: 1
