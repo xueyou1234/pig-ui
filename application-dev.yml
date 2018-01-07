@@ -35,7 +35,7 @@ feign:
 #监控短点配置
 management:
   security:
-    enabled: true
+    enabled: false
 endpoints:
   actuator:
     enabled: true
