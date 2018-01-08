@@ -63,7 +63,7 @@ security:
 filter:
   urls:
     anon:
-      - /mobile/sms
+      - /mobile/**
       - /auth/**
       - /admin/code/*
       - /swagger-resources/**
