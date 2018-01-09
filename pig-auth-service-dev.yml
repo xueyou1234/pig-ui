@@ -7,11 +7,10 @@ pig:
     clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
     scope: server
 
-filter:
-  urls:
-    anon:
-      - /health
-      - /mobile/token
+urls:
+  anon:
+    - /health
+    - /mobile/token
 
 logging:
   config: classpath:logback.xml
