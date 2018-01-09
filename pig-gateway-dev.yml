@@ -60,17 +60,16 @@ security:
       prefer-token-info: false
       service-id: pig-gateway
 
-filter:
-  urls:
-    anon:
-      - /mobile/**
-      - /auth/**
-      - /admin/code/*
-      - /swagger-resources/**
-      - /swagger-ui.html
-      - /*/v2/api-docs
-      - /swagger/api-docs
-      - /webjars/**
+urls:
+  anon:
+    - /mobile/**
+    - /auth/**
+    - /admin/code/*
+    - /swagger-resources/**
+    - /swagger-ui.html
+    - /*/v2/api-docs
+    - /swagger/api-docs
+    - /webjars/**
        
 logging:
   config: classpath:logback.xml
