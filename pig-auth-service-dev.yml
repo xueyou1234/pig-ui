@@ -3,8 +3,8 @@ server:
 
 pig:
   auth:
-    clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
-    clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+    clientId: lengleng
+    clientSecret: lengleng
     scope: server
 
 urls:
