@@ -30,7 +30,7 @@ zuul:
   routes:
     auth-service:
       path: /auth/**
-      serviceId: pig-auth-service
+      serviceId: pig-auth
       stripPrefix: true
       sensitiveHeaders:
     pig-admin-service:
