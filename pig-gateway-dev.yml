@@ -35,7 +35,7 @@ zuul:
       sensitiveHeaders:
     pig-admin-service:
       path: /admin/**
-      serviceId: pig-admin-service
+      serviceId: pig-upms-service
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
