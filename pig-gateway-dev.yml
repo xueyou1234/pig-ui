@@ -56,7 +56,7 @@ security:
   oauth2:
     resource:
       loadBalanced: true
-      user-info-uri: http://pig-auth-service/user
+      user-info-uri: http://pig-auth/user
       prefer-token-info: false
       service-id: pig-gateway
 
