@@ -30,12 +30,12 @@ zuul:
   routes:
     auth-service:
       path: /auth/**
-      serviceId: pig-auth-service
+      serviceId: pig-auth
       stripPrefix: true
       sensitiveHeaders:
     pig-admin-service:
       path: /admin/**
-      serviceId: pig-admin-service
+      serviceId: pig-upms-service
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
@@ -56,7 +56,7 @@ security:
   oauth2:
     resource:
       loadBalanced: true
-      user-info-uri: http://pig-auth-service/user
+      user-info-uri: http://pig-auth/user
       prefer-token-info: false
       service-id: pig-gateway
 
