@@ -1,7 +1,6 @@
 server:
   port: 4050
 
-# datasoure默认使用JDBC
 spring:
   rabbitmq:
     host: 106.14.69.75
