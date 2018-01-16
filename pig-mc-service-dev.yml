@@ -7,3 +7,8 @@ spring:
     port: 5682
     username: pig
     password: lengleng
+
+sms:
+  aliyun:
+    accessKey: Lm4sMaa8jpGOwK9hkuRI3SWHlUd63RTq
+    secretKey: A9i34tFkZLy8HVd9TTKjmnp5P/OE6pEE6+lAOF6tKxwPHizQ3/AG4cG+XoM8/5fO
