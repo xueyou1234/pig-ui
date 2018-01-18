@@ -16,8 +16,7 @@ pig:
 urls:
   anon:
     - /health
-    - /qqlogin
-    - /register
+    - /social
     - /mobile/token
 
 logging:
