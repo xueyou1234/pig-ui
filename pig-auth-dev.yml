@@ -1,17 +1,16 @@
 server:
   port: 3000
   
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
-    url: jdbc:mysql://106.14.69.75:3309/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
 pig:
   auth:
     clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
     clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
     scope: server
+  social:
+    qq:
+      providerId: qq
+      clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+      clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
 
 urls:
   anon:
