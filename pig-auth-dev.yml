@@ -9,8 +9,8 @@ pig:
   social:
     qq:
       providerId: qq
-      clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
-      clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+      clientId: ENC(jYTHlVSN8p2C3KrLz40H7JJYZcQs3SAK)
+      clientSecret: ENC(DmTyBXeNFG7Z6pooPCtDUMcI1MYTiO3ldaEOuVWmOTpgDVmyGMsI42hz6OM+0pEE)
 
 urls:
   anon:
