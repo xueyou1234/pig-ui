@@ -25,6 +25,7 @@ urls:
     - /health
     - /social
     - /signin
+    - /signup
     - /mobile/token
 
 logging:
