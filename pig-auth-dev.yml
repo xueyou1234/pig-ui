@@ -16,6 +16,7 @@ urls:
   anon:
     - /health
     - /social
+    - /signin
     - /mobile/token
 
 logging:
