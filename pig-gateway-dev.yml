@@ -28,7 +28,7 @@ zuul:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
   routes:
-    auth-service:
+    pig-auth:
       path: /auth/**
       serviceId: pig-auth
       stripPrefix: true
@@ -51,7 +51,7 @@ zuul:
 
 security:
   validate:
-    code: true
+    code: false
   sessions: stateless
   oauth2:
     resource:
