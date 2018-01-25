@@ -1,0 +1,12 @@
+server:
+  port: 5003
+
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: 106.14.69.75:5682
+      password: lengleng
+      username: pig
+      queue: zipkin
+  storage:
+    type: mysql
