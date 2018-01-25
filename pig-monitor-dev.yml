@@ -24,3 +24,7 @@ turbine:
     app-config: pig-gateway #收集监控信息的服务名
     combine-host-port: true
     cluster-name-expression: new String('default') #集群名称
+
+mobiles:
+  users:
+    - 17034642119
