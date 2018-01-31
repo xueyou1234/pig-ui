@@ -22,7 +22,6 @@ pig:
 
 urls:
   anon:
-    - /health
     - /social
     - /signin
     - /signup
