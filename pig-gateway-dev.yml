@@ -33,7 +33,7 @@ zuul:
       serviceId: pig-auth
       stripPrefix: true
       sensitiveHeaders:
-    pig-admin-service:
+    pig-upms-service:
       path: /admin/**
       serviceId: pig-upms-service
       stripPrefix: true
@@ -44,7 +44,7 @@ zuul:
     repository: REDIS 
     behind-proxy: true
     policies:
-      pig-admin-service:
+      pig-upms-service:
         limit: 100
         quota: 100
         refresh-interval: 3
