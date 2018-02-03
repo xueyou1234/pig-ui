@@ -27,6 +27,8 @@ ribbon:
   ConnectTimeout: 30000
   
 feign:
+  hystrix:
+    enabled: true
   okhttp:
     enable: true
   httpclient:
