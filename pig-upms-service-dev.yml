@@ -23,7 +23,29 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
-      
+
+# 分库分表支持
+sharding:
+  jdbc:
+    datasource:
+      names: ds
+      ds:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: root
+        jdbc-url: jdbc:mysql://192.168.0.111:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    config:
+      sharding:
+        tables:
+          sys_log:
+            actual-data-nodes: ds.sys_log_${0..1}
+            table-strategy:
+              inline:
+                sharding-column: id
+                algorithm-expression: sys_log_${id % 2}
+            key-generator-column-name: id    
+            
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
