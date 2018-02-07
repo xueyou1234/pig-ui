@@ -33,8 +33,8 @@ sharding:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.jdbc.Driver
         username: root
-        password: root
-        jdbc-url: jdbc:mysql://192.168.0.111:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        password: lengleng
+        jdbc-url: jdbc:mysql://106.14.69.75:3309/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     config:
       sharding:
         tables:
