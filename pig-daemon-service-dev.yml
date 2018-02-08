@@ -3,6 +3,7 @@ server:
 
 spring:
   datasource:
+    type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
