@@ -4,5 +4,5 @@ server:
 spring:
   elasticjob:
     zookeeper:
-      server-lists: 127.0.0.1:2181
+      server-lists: 106.14.69.75:2181
       namespace: pig-daemon
