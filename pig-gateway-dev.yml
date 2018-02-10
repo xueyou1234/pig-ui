@@ -66,6 +66,8 @@ urls:
     - /auth/**
     - /admin/code/*
     - /admin/smsCode/*
+    - /admin/user/info
+    - /admin/menu/tree
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
