@@ -23,9 +23,9 @@ ribbon:
     enable: false
   OkHttp:
     enable: true
-  ReadTimeout: 30000
-  ConnectTimeout: 30000
-  
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+
 feign:
   hystrix:
     enabled: true
@@ -33,6 +33,11 @@ feign:
     enable: true
   httpclient:
     enable: false
+  client:
+    config:
+      feignName:
+        connectTimeout: 10000
+        readTimeout: 10000  
     
 #监控短点配置
 management:
