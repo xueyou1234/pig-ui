@@ -38,6 +38,14 @@ feign:
       feignName:
         connectTimeout: 10000
         readTimeout: 10000  
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000
     
 #监控短点配置
 management:
