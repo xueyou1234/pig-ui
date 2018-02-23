@@ -36,8 +36,8 @@ feign:
   client:
     config:
       feignName:
-        connectTimeout: 10000
-        readTimeout: 10000  
+        connectTimeout: 30000
+        readTimeout: 30000  
 
 hystrix:
   command:
@@ -45,7 +45,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 15000
+            timeoutInMilliseconds: 60000
     
 #监控短点配置
 management:
