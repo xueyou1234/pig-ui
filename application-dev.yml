@@ -23,8 +23,8 @@ ribbon:
     enable: false
   OkHttp:
     enable: true
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
 
 feign:
   hystrix:
