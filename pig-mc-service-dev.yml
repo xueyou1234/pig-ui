@@ -11,6 +11,6 @@ spring:
 sms:
   aliyun:
     accessKey: ENC(Lm4sMaa8jpGOwK9hkuRI3SWHlUd63RTqq)
-    secretKey: ENC(A9i34tFkZLy8HVd9TTKjmnp5P/OE6pEE6+lAOF6tKxwPHizQ3/AG4cG+XoM8/5fO)
+    secretKey: ENC(Lm4sMaa8jpGOwK9hkuRI3SWHlUd63RTqq)
     channels:
       loginCodeChannel: SMS_34630023
