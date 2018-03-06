@@ -48,7 +48,7 @@ security:
   oauth2:
     resource:
       loadBalanced: true
-      accessTokenUri: http://pig-auth/oauth/token
+      accessTokenUri: http://localhost:3000/oauth/token
       prefer-token-info: false
       service-id: pig-gateway
 
