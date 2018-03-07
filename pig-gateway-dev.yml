@@ -43,7 +43,7 @@ zuul:
 
 security:
   validate:
-    code: true
+    code: false
   sessions: stateless
   oauth2:
     resource:
