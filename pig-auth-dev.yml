@@ -22,6 +22,7 @@ pig:
 
 urls:
   anon:
+    - /oauth/token
     - /social
     - /signin
     - /signup
