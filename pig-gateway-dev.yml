@@ -3,10 +3,10 @@ server:
 
 spring:
   rabbitmq:
-    host: 106.14.69.75
-    port: 5682
+    host: 192.168.0.111
+    port: 5672
     username: pig
-    password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
+    password: lengleng
   zipkin:
     rabbitmq:
       queue: zipkin
@@ -43,14 +43,18 @@ zuul:
 
 security:
   validate:
-    code: true
+    code: false
   sessions: stateless
   oauth2:
+    client:
+      client-id: pig
+      client-secret: pig
     resource:
       loadBalanced: true
-      user-info-uri: http://pig-auth/user
-      prefer-token-info: false
+      token-info-uri: ${security.auth.server}/oauth/check-token
       service-id: pig-gateway
+      jwt:
+         key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
 urls:
   anon:
