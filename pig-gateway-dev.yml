@@ -41,17 +41,6 @@ zuul:
         quota: 100
         refresh-interval: 3
 
-security:
-  validate:
-    code: false
-  sessions: stateless
-  oauth2:
-    resource:
-      loadBalanced: true
-      user-info-uri: http://pig-auth/user
-      prefer-token-info: true
-      service-id: pig-gateway
-
 urls:
   anon:
     - /mobile/**
