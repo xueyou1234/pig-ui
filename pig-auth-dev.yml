@@ -36,6 +36,10 @@ urls:
     - /social
     - /signin
     - /signup
+    - /info
+    - /health
+    - /metrics/**
+    - /loggers/**
     - /mobile/token
 
 logging:
