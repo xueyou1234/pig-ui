@@ -24,6 +24,9 @@ cache:
     expiration: 3601
 
 ribbon:
+  eager-load:
+    enabled: true
+    clients: pig-auth,pig-upms-service
   Httpclient:
     enable: false
   OkHttp:
