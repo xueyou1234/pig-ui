@@ -15,6 +15,10 @@ spring:
       percentage: 1.0
 
 zuul:
+  ribbon:
+    eager-load:
+      enabled: true
+      clients: pig-auth,pig-upms-service
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
