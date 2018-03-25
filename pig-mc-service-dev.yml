@@ -3,8 +3,8 @@ server:
 
 spring:
   rabbitmq:
-    host: 106.14.69.75
-    port: 5682
+    host: 192.169.0.111
+    port: 5672
     username: pig
     password: lengleng
 
