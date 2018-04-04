@@ -19,8 +19,8 @@ spring:
       max-file-size: 1000MB
       max-request-size: 1000MB
 
-cache:
-  redis:
+redis:
+  cache:
     expiration: 3601
 
 ribbon:
@@ -45,7 +45,7 @@ feign:
     config:
       feignName:
         connectTimeout: 30000
-        readTimeout: 30000  
+        readTimeout: 30000
 
 hystrix:
   threadpool:
@@ -59,7 +59,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
-    
+
 #监控短点配置
 management:
   security:
