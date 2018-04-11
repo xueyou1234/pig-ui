@@ -12,7 +12,7 @@ spring:
       queue: zipkin
   sleuth:
     sampler:
-      percentage: 1.0
+      percentage: 0.2
 
 zuul:
   ribbon:
