@@ -9,12 +9,6 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 
 spring:
-  redis:  
-    cluster:  
-      nodes:  
-        - 139.224.200.249:7000
-        - 139.224.200.249:7001 
-        - 139.224.200.249:7002
   http:
     multipart:
       max-file-size: 1000MB
