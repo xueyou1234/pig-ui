@@ -3,7 +3,7 @@ server:
 
 spring:
   rabbitmq:
-    host: 106.14.69.75
+    host: 139.224.200.249
     port: 5682
     username: pig
     password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)

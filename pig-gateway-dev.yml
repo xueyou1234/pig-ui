@@ -3,8 +3,8 @@ server:
 
 spring:
   rabbitmq:
-    host: 192.168.0.111
-    port: 5672
+    host: 139.224.200.249
+    port: 5682
     username: pig
     password: lengleng
   zipkin:
@@ -35,9 +35,9 @@ zuul:
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
-    key-prefix: pig-ratelimite 
-    enabled: true 
-    repository: REDIS 
+    key-prefix: pig-ratelimite
+    enabled: true
+    repository: REDIS
     behind-proxy: true
     policies:
       pig-upms-service:
@@ -73,6 +73,6 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
-       
+
 logging:
   config: classpath:logback.xml
