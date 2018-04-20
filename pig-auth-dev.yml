@@ -20,8 +20,8 @@ spring:
       
 pig:
   auth:
-    clientId: lengleng
-    clientSecret: lengleng
+    clientId: pig
+    clientSecret: pig
     scope: server
   social:
     qq:
