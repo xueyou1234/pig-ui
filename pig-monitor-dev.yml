@@ -25,6 +25,10 @@ turbine:
     combine-host-port: true
     cluster-name-expression: new String('default') #集群名称
 
-mobiles:
-  users:
-    - 17034642119
+notifier:
+  mobile:
+    enabled: true
+    mobiles:
+      - 17034642119
+  dingTalk:
+    enabled: true
