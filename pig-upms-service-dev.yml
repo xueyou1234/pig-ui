@@ -80,4 +80,4 @@ logging:
   config: classpath:logback.xml
 
 bus:
-  test: lengleng
+  test: ppipipi
