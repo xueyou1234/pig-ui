@@ -14,6 +14,11 @@ spring:
     host: 139.224.200.249
     port: 6381
     password:
+  rabbitmq:
+    host: 139.224.200.249
+    port: 5682
+    username: pig
+    password: lengleng
   http:
     multipart:
       max-file-size: 1000MB
