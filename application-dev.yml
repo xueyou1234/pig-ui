@@ -10,7 +10,7 @@ server:
 
 spring:
   redis:
-    remote: true        #cachecloud 获取
+    remote: false        #cachecloud 获取
     host: 139.224.200.249
     port: 6381
     password:
