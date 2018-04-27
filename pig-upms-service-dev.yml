@@ -79,3 +79,5 @@ qiniu:
 logging:
   config: classpath:logback.xml
 
+bus:
+  test: lengleng
