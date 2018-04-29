@@ -2,11 +2,6 @@ server:
   port: 5001
 
 spring:
-  rabbitmq:
-    host: 106.14.69.75
-    port: 5682
-    username: pig
-    password: ENC(gc16brBHPNq27HsjaULgKGq00Rz6ZUji)
   # zipkin:
   #     base-url: http://localhost:5002
   # sleuth:
@@ -31,4 +26,8 @@ notifier:
     mobiles:
       - 17034642119
   dingTalk:
+<<<<<<< HEAD
     enabled: true
+=======
+    enabled: true
+>>>>>>> 786ef5f963ca6efca677d9636e4f343107e15132
