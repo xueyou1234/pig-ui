@@ -26,8 +26,4 @@ notifier:
     mobiles:
       - 17034642119
   dingTalk:
-<<<<<<< HEAD
     enabled: true
-=======
-    enabled: true
->>>>>>> 786ef5f963ca6efca677d9636e4f343107e15132
