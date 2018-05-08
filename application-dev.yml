@@ -79,3 +79,8 @@ endpoints:
     enabled: true
   shutdown:
     enabled: false
+
+#日志保存地址
+log:
+  base:
+    path: /Users/lengleng/work/temp
