@@ -68,6 +68,3 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
-
-logging:
-  config: classpath:logback.xml
