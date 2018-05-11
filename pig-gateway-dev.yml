@@ -42,7 +42,8 @@ zuul:
 
 security:
   validate:
-    code: false
+    code: true
+    preview: true
   sessions: stateless
   oauth2:
     client:
@@ -68,6 +69,3 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
-
-logging:
-  config: classpath:logback.xml

@@ -79,3 +79,4 @@ endpoints:
     enabled: true
   shutdown:
     enabled: false
+
