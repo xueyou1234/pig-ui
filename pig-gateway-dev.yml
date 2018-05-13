@@ -61,7 +61,7 @@ security:
       jwt:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
-urls:
+ignore:
   anon:
     - /mobile/**
     - /auth/**
@@ -72,3 +72,5 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
+  client:
+    - lengleng
