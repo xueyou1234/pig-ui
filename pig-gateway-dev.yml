@@ -47,7 +47,7 @@ zuul:
 
 security:
   validate:
-    code: false
+    code: true
     preview: false
   sessions: stateless
   oauth2:
@@ -67,8 +67,6 @@ urls:
     - /auth/**
     - /admin/code/*
     - /admin/smsCode/*
-    - /admin/user/info
-    - /admin/menu/userTree
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
