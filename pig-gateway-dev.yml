@@ -62,7 +62,7 @@ security:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
 ignore:
-  anons:
+  urls:
     - /mobile/**
     - /auth/**
     - /admin/code/*
