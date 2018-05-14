@@ -9,3 +9,4 @@ sms:
     secretKey: secretKey
     channels:
       loginCodeChannel: SMS_34630023
+      serviceStatusChange: SMS_134310585
