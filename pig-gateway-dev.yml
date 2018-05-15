@@ -73,4 +73,4 @@ ignore:
     - /swagger/api-docs
     - /webjars/**
   clients:
-    - pig
+    - app
