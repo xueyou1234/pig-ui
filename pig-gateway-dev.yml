@@ -29,11 +29,6 @@ zuul:
       serviceId: pig-upms-service
       stripPrefix: true
       sensitiveHeaders:
-    pig-demo-service:
-      path: /demo/**
-      serviceId: pig-demo-service
-      stripPrefix: true
-      sensitiveHeaders:
   ratelimit:
     key-prefix: pig-ratelimite
     enabled: true
