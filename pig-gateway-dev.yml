@@ -62,6 +62,8 @@ ignore:
     - /auth/**
     - /admin/code/*
     - /admin/smsCode/*
+    - /admin/user/info
+    - /admin/userMenu
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
