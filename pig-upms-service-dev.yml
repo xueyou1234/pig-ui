@@ -5,14 +5,14 @@ redis:
   cache:
     expiration: 3600
 
-# datasoure默认使用JDBC
+# sleuth配置
 spring:
   zipkin:
     rabbitmq:
       queue: zipkin
   sleuth:
     sampler:
-      percentage: 1.0
+      percentage: 0.2
 
 # 分库分表支持
 sharding:

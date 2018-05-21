@@ -3,6 +3,11 @@ server:
   
 # datasoure默认使用JDBC
 spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: lengleng
+    url: jdbc:mysql://139.224.200.249:3309/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
   freemarker:
     allow-request-override: false
     allow-session-override: false
@@ -18,19 +23,8 @@ spring:
     suffix: .ftl
     template-loader-path: classpath:/templates/
       
-pig:
-  auth:
-    clientId: pig
-    clientSecret: pig
-    scope: server
-  social:
-    qq:
-      providerId: qq
-      clientId: ENC(jYTHlVSN8p2C3KrLz40H7JJYZcQs3SAK)
-      clientSecret: ENC(DmTyBXeNFG7Z6pooPCtDUMcI1MYTiO3ldaEOuVWmOTpgDVmyGMsI42hz6OM+0pEE)
-
-urls:
-  anon:
+ignore:
+  urls:
     - /authentication/**
     - /**/*.css
     - /social

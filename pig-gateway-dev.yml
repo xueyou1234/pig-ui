@@ -13,22 +13,11 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: pig-auth,pig-upms-service
+      clients: pig-auth,pig-upms-service,pig-demo-service
   ignoredServices: '*'
   host:
-    connect-timeout-millis: 30000
-    socket-timeout-millis: 30000
-  routes:
-    pig-auth:
-      path: /auth/**
-      serviceId: pig-auth
-      stripPrefix: true
-      sensitiveHeaders:
-    pig-upms-service:
-      path: /admin/**
-      serviceId: pig-upms-service
-      stripPrefix: true
-      sensitiveHeaders:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 10000
   ratelimit:
     key-prefix: pig-ratelimite
     enabled: true
@@ -43,7 +32,7 @@ zuul:
 security:
   validate:
     code: true
-    preview: true
+    preview: false
   sessions: stateless
   oauth2:
     client:
@@ -56,16 +45,18 @@ security:
       jwt:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
-urls:
-  anon:
+ignore:
+  urls:
     - /mobile/**
     - /auth/**
     - /admin/code/*
     - /admin/smsCode/*
     - /admin/user/info
-    - /admin/menu/userTree
+    - /admin/userMenu
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
+  clients:
+    - app
