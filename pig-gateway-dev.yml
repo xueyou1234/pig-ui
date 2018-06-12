@@ -52,7 +52,7 @@ ignore:
     - /admin/code/*
     - /admin/smsCode/*
     - /admin/user/info
-    - /admin/userMenu
+    - /admin/menu/userMenu
     - /swagger-resources/**
     - /swagger-ui.html
     - /*/v2/api-docs
